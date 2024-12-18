@@ -1,15 +1,15 @@
 {
   "name": "ampscript_compiler",
   "version": "1.0.0",
-  "description": "",
+  "description": "AMPscript to HTML Compiler",
   "main": "index.js",
-  "directories": {
-    "example": "examples"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "live-server src"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
 }
