@@ -1,14 +1,26 @@
-class AMPscriptFunctions {
-  // Função CONCAT: Concatena argumentos mantendo espaços e caracteres especiais
+export class AMPscriptFunctions {
   static CONCAT(...args) {
-    return args.join(''); // Junta sem adicionar separadores extras
+    return args.join('');
   }
 
   static UPPER(value) {
     return value.toUpperCase();
   }
 
-  // Mais funções podem ser adicionadas aqui
-}
+  static ADD(a, b) {
+    return a + b;
+  }
 
-module.exports = AMPscriptFunctions;
+  static SUBTRACT(a, b) {
+    return a - b;
+  }
+
+  static MULTIPLY(a, b) {
+    return a * b;
+  }
+
+  static DIVIDE(a, b) {
+    if (b === 0) throw new Error("Divisão por zero.");
+    return a / b;
+  }
+}
