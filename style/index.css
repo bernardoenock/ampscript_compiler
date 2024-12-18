@@ -114,8 +114,7 @@ a:hover {
 .footer {
   margin-top: 40px;
   padding: 20px;
-  background-color: #e3f2fd;
-  border-top: 1px solid #b3d7ff;
+  background: linear-gradient(to right, #b3d7ff 80%, #f4f8fb 100%);
   display: flex;
   align-items: center;
   justify-content: space-between;
