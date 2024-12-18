@@ -6,4 +6,19 @@
   SET @quotient = DIVIDE(@number1, @number2)
 ]%%
 
-Resultado da divisão: %%=v(@quotient)=%%
+<h2>Resultado da Divisão - Uma Jornada Matemática</h2>
+<p>Vamos embarcar em uma pequena aventura matemática e descobrir o resultado de uma operação simples, mas essencial!</p>
+
+<p><strong>Dividindo o número 20 por 5...</strong></p>
+
+<div style="background-color: #f0f0f0; padding: 15px; border-radius: 8px;">
+  <h3><em>O Resultado Final:</em></h3>
+  <p>A operação de divisão entre %%=v(@number1)=%% e %%=v(@number2)=%% nos leva a um valor surpreendente:</p>
+  <p style="font-size: 20px; color: #007bff;"><strong>%%=v(@quotient)=%%</strong></p>
+</div>
+
+<p>Essa simples operação pode parecer trivial, mas é a base de muitos cálculos mais complexos que fazemos no nosso dia a dia!</p>
+
+<footer style="text-align: center; margin-top: 30px;">
+  <p><small>&copy; 2024 Matemática Simples - Todos os direitos reservados.</small></p>
+</footer>

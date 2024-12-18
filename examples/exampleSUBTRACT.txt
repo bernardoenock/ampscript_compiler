@@ -6,4 +6,18 @@
   SET @difference = SUBTRACT(@number1, @number2)
 ]%%
 
-Resultado da subtração: %%=v(@difference)=%%
+<p><strong>Vamos realizar uma simples subtração?</strong></p>
+<p>Temos os seguintes números:</p>
+<ul>
+  <li><strong>Número 1:</strong> %%=v(@number1)=%%</li>
+  <li><strong>Número 2:</strong> %%=v(@number2)=%%</li>
+</ul>
+
+<p>Agora, vamos subtrair o <strong>Número 2</strong> do <strong>Número 1</strong> e ver o que acontece:</p>
+
+<div style="background-color: #f4f4f4; padding: 10px; border-radius: 5px;">
+  <p><strong>Resultado da subtração:</strong></p>
+  <p style="font-size: 1.5em; color: #2c3e50;">%%=v(@difference)=%%</p>
+</div>
+
+<p><em>Incrível, não? Essa é a beleza das operações matemáticas simples!</em></p>

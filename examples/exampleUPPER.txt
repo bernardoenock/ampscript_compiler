@@ -5,4 +5,40 @@
   SET @upperGreeting = UPPER(@greeting)
 ]%%
 
-Mensagem em maiúsculas: %%=v(@upperGreeting)=%%
+<html>
+  <head>
+    <style>
+      .greeting-container {
+        background-color: #f4f4f9;
+        padding: 20px;
+        border-radius: 8px;
+        text-align: center;
+        font-family: Arial, sans-serif;
+      }
+      .greeting {
+        font-size: 24px;
+        color: #4CAF50;
+        font-weight: bold;
+      }
+      .upper-greeting {
+        font-size: 28px;
+        color: #D32F2F;
+        text-transform: uppercase;
+        margin-top: 20px;
+      }
+      .highlight {
+        background-color: #ffeb3b;
+        padding: 5px;
+        border-radius: 4px;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="greeting-container">
+      <p class="greeting">%%=v(@greeting)=%%</p>
+      <p class="upper-greeting">Mensagem em <span class="highlight">MAIÚSCULAS</span>: %%=v(@upperGreeting)=%%</p>
+      <p>Estamos felizes em te ver aqui! Aproveite sua experiência ao máximo.</p>
+    </div>
+  </body>
+</html>
