@@ -1,4 +1,4 @@
-class AMPscriptCompiler {
+export class AMPscriptCompiler {
   constructor(template, variables) {
     this.template = template;
     this.variables = variables;
@@ -19,5 +19,3 @@ class AMPscriptCompiler {
     return compiledHTML;
   }
 }
-
-module.exports = AMPscriptCompiler;

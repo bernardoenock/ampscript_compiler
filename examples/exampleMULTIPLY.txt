@@ -1,0 +1,19 @@
+%%[
+  VAR @number1, @number2, @product
+  SET @number1 = 4
+  SET @number2 = 3
+  
+  SET @product = MULTIPLY(@number1, @number2)
+]%%
+
+<div class="container">
+    <h1>Resultado da Operação Matemática</h1>
+    <p>Olá! Hoje, vamos calcular o produto de dois números. Você pode ver o resultado abaixo:</p>
+    <p><strong>Número 1:</strong> %%=v(@number1)=%%</p>
+    <p><strong>Número 2:</strong> %%=v(@number2)=%%</p>
+    <p>Agora, vamos multiplicá-los e ver o resultado...</p>
+    <div class="result">
+      <p>O resultado da multiplicação é: %%=v(@product)=%%</p>
+    </div>
+    <p>Esse é o poder das operações matemáticas! Continue explorando e aprendendo novas funções.</p>
+  </div>

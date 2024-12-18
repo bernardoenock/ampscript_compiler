@@ -1,0 +1,14 @@
+%%[
+  VAR @number1, @number2, @sum
+  SET @number1 = 10
+  SET @number2 = 20
+  
+  SET @sum = ADD(@number1, @number2)
+]%%
+
+<h1>Bem-vindo ao mundo dos cálculos dinâmicos!</h1>
+<p>Estamos realizando operações incríveis utilizando AMPscript.</p>
+<p>Você sabia que somar números é uma das operações mais básicas, mas também uma das mais importantes na matemática?</p>
+<p>Aqui está o resultado da soma dos números que definimos:</p>
+<h2 style="color: green;">A soma de %%=v(@number1)=%% e %%=v(@number2)=%% é: <strong>%%=v(@sum)=%%</strong></h2>
+<p>Continue explorando o poder do AMPscript para criar experiências personalizadas e dinâmicas!</p>

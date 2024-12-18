@@ -1,0 +1,18 @@
+%%[
+  VAR @firstName, @lastName, @fullName
+  SET @firstName = "Bernardo"
+  SET @lastName = "Enock"
+  
+  SET @fullName = CONCAT(@firstName, " ", @lastName)
+]%%
+
+<div style="font-family: Arial, sans-serif; color: #333; text-align: center; margin-top: 20px;">
+  <h1 style="color: #007BFF;">Bem-vindo, %%=v(@fullName)=%%!</h1>
+  <p>Estamos muito felizes em tê-lo conosco.</p>
+  <p>
+    <strong>Explore nosso site e descubra todas as novidades que preparamos para você.</strong>
+  </p>
+  <a href="https://github.com/bernardoenock" target="_blank" style="display: inline-block; margin-top: 20px; padding: 10px 20px; background-color: #007BFF; color: #fff; text-decoration: none; border-radius: 5px;">
+    Começar Agora
+  </a>
+</div>
