@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AMPscript Compiler</title>
+  <link rel="stylesheet" href="style/index.css">
+</head>
+
+<body>
+  <div class="header">
+    <img src="assets/ampscript_compiler_js_logo_clound.png" alt="AMPscript Compiler Logo" class="logo">
+    <h1>AMPscript Compiler</h1>
+  </div>
+  <p>Insira seu código AMPscript abaixo:</p>
+  <textarea id="ampscriptInput"></textarea>
+  <br>
+
+  <button class="example">Exemplo 1: CONCAT</button>
+  <button class="example">Exemplo 2: UPPER</button>
+  <button class="example">Exemplo 3: ADD</button>
+  <button class="example">Exemplo 4: SUBTRACT</button>
+  <button class="example">Exemplo 5: MULTIPLY</button>
+  <button class="example">Exemplo 6: DIVIDE</button>
+
+  <br><br>
+  <button id="compile">Visualizar</button>
+
+  <h2>Resultado HTML:</h2>
+  <div class="output-container" id="outputHTML"></div>
+
+  <footer class="footer">
+    <img src="assets/ampscript_compiler_js_logo_clound.png" alt="Footer Logo" class="footer-logo">
+    <p>Made by <strong>Bernardo Enock</strong></p>
+    <a href="https://www.linkedin.com/in/bernardoenock/" target="_blank" class="footer-link">
+      LinkedIn
+    </a>
+  </footer>
+
+  <script type="module" src="src/main.js"></script>
+  <script type="module" src="src/examples.js"></script>
+  <script type="module">
+    import compileAMPscript from './src/main.js';
+    import insertExample from './src/examples.js';
+
+    const btnExamples = document.getElementsByClassName('example')
+    for (let i = 0; i < btnExamples.length; i++) {
+      btnExamples[i].addEventListener('click', () => {
+        insertExample(i + 1);
+      });
+    }
+
+    document.getElementById('compile').addEventListener('click', compileAMPscript); 
+  </script>
+</body>
+
+</html>
