@@ -1,0 +1,8 @@
+%%[
+  VAR @greeting, @upperGreeting
+  SET @greeting = "Olá, seja bem-vindo!"
+  
+  SET @upperGreeting = UPPER(@greeting)
+]%%
+
+Mensagem em maiúsculas: %%=v(@upperGreeting)=%%

@@ -1,0 +1,9 @@
+%%[
+  VAR @number1, @number2, @quotient
+  SET @number1 = 20
+  SET @number2 = 5
+  
+  SET @quotient = DIVIDE(@number1, @number2)
+]%%
+
+Resultado da divisão: %%=v(@quotient)=%%

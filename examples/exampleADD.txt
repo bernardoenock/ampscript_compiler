@@ -1,0 +1,9 @@
+%%[
+  VAR @number1, @number2, @sum
+  SET @number1 = 10
+  SET @number2 = 20
+  
+  SET @sum = ADD(@number1, @number2)
+]%%
+
+Resultado da soma: %%=v(@sum)=%%

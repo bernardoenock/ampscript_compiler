@@ -1,0 +1,9 @@
+%%[
+  VAR @number1, @number2, @product
+  SET @number1 = 4
+  SET @number2 = 3
+  
+  SET @product = MULTIPLY(@number1, @number2)
+]%%
+
+Resultado da multiplicação: %%=v(@product)=%%

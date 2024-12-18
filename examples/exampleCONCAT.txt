@@ -1,0 +1,9 @@
+%%[
+  VAR @firstName, @lastName, @fullName
+  SET @firstName = "João"
+  SET @lastName = "Silva"
+  
+  SET @fullName = CONCAT(@firstName, " ", @lastName)
+]%%
+
+Olá, %%=v(@fullName)=%%! Seja bem-vindo ao nosso site!

@@ -1,0 +1,9 @@
+%%[
+  VAR @number1, @number2, @difference
+  SET @number1 = 15
+  SET @number2 = 5
+  
+  SET @difference = SUBTRACT(@number1, @number2)
+]%%
+
+Resultado da subtração: %%=v(@difference)=%%
