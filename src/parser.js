@@ -144,4 +144,3 @@ export class AMPscriptParser {
     return this.variables;
   }
 }
-
