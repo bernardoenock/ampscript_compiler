@@ -6,9 +6,9 @@ O **AMPscript Compiler** é uma ferramenta desenvolvida para compilar códigos A
 
 ## Como Funciona
 
-O projeto permite que os usuários insiram códigos AMPscript em um campo de texto, visualize o código AMPscript compilado em HTML e observe como as variáveis e funções específicas como `CONCAT`, `UPPER`, `ADD`, `SUBTRACT`, `MULTIPLY` e `DIVIDE` são processadas e aplicadas em tempo real. Com a capacidade de inserir exemplos diretamente no editor, o usuário pode aprender rapidamente sobre o funcionamento do AMPscript e testar diferentes operações e expressões.
+![Exemplo de Uso do AMPscript Compiler](assets/ampscript_compiler_gif.gif)
 
-![Exemplo de Uso do AMPscript Compiler](assets/ampscript_compiler_demo.gif)
+O projeto permite que os usuários insiram códigos AMPscript em um campo de texto, visualize o código AMPscript compilado em HTML e observe como as variáveis e funções específicas como `CONCAT`, `UPPER`, `ADD`, `SUBTRACT`, `MULTIPLY` e `DIVIDE` são processadas e aplicadas em tempo real. Com a capacidade de inserir exemplos diretamente no editor, o usuário pode aprender rapidamente sobre o funcionamento do AMPscript e testar diferentes operações e expressões.
 
 ## Tecnologias Utilizadas
 
@@ -34,7 +34,7 @@ Antes de rodar o projeto localmente, certifique-se de ter o **Node.js** instalad
 1. Clone o repositório para o seu ambiente local:
 
    ```bash
-   git clone https://github.com/seu-usuario/ampscript-compiler.git
+   git clone git@github.com:bernardoenock/ampscript_compiler.git
    ```
 
 2. Navegue até o diretório do projeto:
@@ -61,7 +61,7 @@ Antes de rodar o projeto localmente, certifique-se de ter o **Node.js** instalad
 
 Você também pode acessar a versão online do projeto aqui:
 
-[https://seu-link-do-projeto](https://seu-link-do-projeto)
+[https://bernardoenock.github.io/ampscript_compiler/](https://bernardoenock.github.io/ampscript_compiler/)
 
 ## Como Contribuir
 
@@ -80,3 +80,5 @@ Esse projeto me permitiu não apenas melhorar minha capacidade de trabalhar com 
 ## License
 
 Este projeto está licenciado sob a **MIT License** - veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+![code like dog](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2l1MXJ1YThsMXB2NWpuM2NhYTMwdGx1bW45dGc5NzNkbDg1d2R2MyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wpoLqr5FT1sY0/giphy.gif)
